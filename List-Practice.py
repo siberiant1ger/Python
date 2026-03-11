@@ -12,3 +12,9 @@
 # print(deezer)
 
 print (list(range(0,100)))
+
+x,y,z, *other = (1,2,3,4,5,6,7,8,9)
+print (x)
+print (y)
+print (z)
+print (other)
