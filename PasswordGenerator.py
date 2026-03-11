@@ -9,15 +9,21 @@ lettercount = int(input("how many letters do you want in your password? : \n"))
 numbercount = int(input("how many numbers do you want in your password? : \n"))
 symbolcount = int(input ("how many symbols do you want in your password? : \n"))
 
-for char in range(lettercount):
+for _ in range(lettercount):
     password.append(random.choice(letters))
-for num in range(numbercount):
+for _ in range(numbercount):
     password.append(random.choice(numbers)) 
-for sym in range(symbolcount):
+for _ in range(symbolcount):
     password.append(random.choice(symbols))
 
-print (password)
+random.shuffle(password)
 
+# Way ONE
+# password_list = "".join(password)
+# print(password_list)
 
-password_list = "".join(password)
-print(password_list)
+# WAY TWO
+password_list = ""
+for char in password:
+    password_list += char
+print (password_list)
