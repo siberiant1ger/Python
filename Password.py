@@ -11,8 +11,8 @@ print (f"your username is {hidden_username} and your password is {hidden_passwor
 
 # SECOND WAY TO DO IT
 
-# skrt = ""
-# skrt2 = ""
+# username_length = ""
+# password_length = ""
 # for letter in first:
 #     skrt += "*"
 # for letter in second:
