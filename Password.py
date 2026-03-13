@@ -1,13 +1,14 @@
-first=input("what is your username? ")
-second=input("what is your password? ")
+# first = input("what is your username? ")
+# second = input("what is your password? ")
 
-username_length = len(first)
-password_length = len(second)
+# username_length = len(first)
+# password_length = len(second)
 
-hidden_username = "*" * username_length
-hidden_password = "*" * password_length
+# hidden_username = "*" * username_length
+# hidden_password = "*" * password_length
 
-print (f"your username is {hidden_username} and your password is {hidden_password}")
+# print(
+#     f"your username is {hidden_username} and your password is {hidden_password}")
 
 # SECOND WAY TO DO IT
 
@@ -19,3 +20,7 @@ print (f"your username is {hidden_username} and your password is {hidden_passwor
 #     skrt2 += "*"
 
 # print (f"your usernam is {skrt} and your password is {skrt2}")
+
+is_friend = False
+canmessage = "message allowed" if is_friend else "not allowed"
+print (canmessage)
