@@ -65,16 +65,26 @@
 #     if char == 50:
 #         print(f"index of 50 is {i}")
 
-duplicates = []
-some_list = [ 'a', 'b', 'c', 'd', 'b', 'd']
-for char in some_list:
-    if some_list.count(char) > 1:
-        duplicates.append(char)
+# duplicates = []
+# some_list = [ 'a', 'b', 'c', 'd', 'b', 'd']
+# for char in some_list:
+#     if some_list.count(char) > 1:
+#         duplicates.append(char)
 
-print(duplicates)
+# print(duplicates)
 
-def say_chunga():
-    print('heloooooooooooo')
+# def say_chunga(tiger, tegro):
+#     print(f'heloooooooooooo {tiger} {tegro}')
 
-say_chunga()
-        
+# say_chunga('tiger', 'tegro')
+    
+# def sum(num1, num2):
+#     return num1 + num2
+    
+# print(sum(4,5))
+# help(len)
+
+# def is_odd_or_even(num):
+
+#     *args
+#     **kwargs
