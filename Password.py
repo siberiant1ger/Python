@@ -88,3 +88,12 @@
 
 #     *args
 #     **kwargs
+
+def highest_even(li):
+    evens = []
+    for score in li:
+        if score%2 == 0:
+            evens.append(score)
+    return max(evens)
+
+print (highest_even([10,2,3,4,8,11]))
