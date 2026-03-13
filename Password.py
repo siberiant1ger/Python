@@ -40,17 +40,41 @@
 # for item in 'Zero to Mastery'
 #     print('item')
 
-user = {
-    'name' : 'golem',
-    'age' : 500,
-    'can_swim' : False,
-}
+# user = {
+#     'name' : 'golem',
+#     'age' : 500,
+#     'can_swim' : False,
+# }
 
-for key,value in user.items():
-    print(key, value)
+# for key,value in user.items():
+#     print(key, value)
 
-for item in user.values():
-    print(item)
+# for item in user.values():
+#     print(item)
 
-for item in user.keys():
-    print(item)
+# for item in user.keys():
+#     print(item)
+# total = 0
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# for char in my_list:
+#     total += char
+
+# print(total)
+
+# for i, char in enumerate(list(range(100))):
+#     if char == 50:
+#         print(f"index of 50 is {i}")
+
+duplicates = []
+some_list = [ 'a', 'b', 'c', 'd', 'b', 'd']
+for char in some_list:
+    if some_list.count(char) > 1:
+        duplicates.append(char)
+
+print(duplicates)
+
+def say_chunga():
+    print('heloooooooooooo')
+
+say_chunga()
+        
