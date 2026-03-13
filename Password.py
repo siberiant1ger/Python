@@ -21,6 +21,18 @@
 
 # print (f"your usernam is {skrt} and your password is {skrt2}")
 
-is_friend = False
-canmessage = "message allowed" if is_friend else "not allowed"
-print (canmessage)
+# is_friend = False
+# canmessage = "message allowed" if is_friend else "not allowed"
+# print (canmessage)
+
+# is_magician = True
+# is_expert = False
+
+# if is_magician and is_expert:
+#     print("you are a master magician")
+
+# if is_magician and not is_expert:
+#     print('at least you\'re magician')
+
+# if not is_magician:
+#     print('you need magic dildo')
